@@ -1,0 +1,16 @@
+single_write: total=0.2362s avg_latency=0.002362ms
+single_seq: total=0.0612s avg_latency=0.000612ms
+single_rand: total=0.0323s avg_latency=0.032341ms
+chunked_write: total=0.1894s avg_latency=0.001894ms
+chunked_seq: total=0.0613s avg_latency=0.000613ms
+chunked_rand: total=0.0377s avg_latency=0.037656ms
+individual_write: total=2.6326s avg_latency=0.026326ms
+individual_seq: total=0.9084s avg_latency=0.009084ms
+individual_rand: total=0.0097s avg_latency=0.009724ms
+
+observations:
+- single large file minimizes metadata overhead and system calls.
+- chunked approach balances manageability and performance.
+- individual files incur high filesystem overhead.
+- sequential reads benefit from locality.
+- random reads amplify seek and metadata costs.
