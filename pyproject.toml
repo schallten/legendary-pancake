@@ -1,0 +1,13 @@
+[project]
+name = "legendary-pancake"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "httpx==0.27.0",
+    "rich==13.7.1",
+    "python-dotenv==1.0.1",
+    "pydantic==2.6.1",
+    "click==8.1.7",
+]
