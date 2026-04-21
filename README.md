@@ -1,2 +1,0 @@
-# legendary-pancake
-storage benchmark
